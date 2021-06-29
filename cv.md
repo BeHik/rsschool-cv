@@ -1,8 +1,8 @@
-### Yury Astapchenia ###  
+### Yury Astapchenia  
 `e-mail:` behik3d@gmail.com  
 `tel:` (+375) 298 872 986  
 
-#### Key Qualifications and Skills ####  
+#### Key Qualifications and Skills  
 > * Object-oriented programming  
 > * Eager to learn about latest .NET technologies  
 > * Self-motivated and hardworking  
@@ -11,7 +11,7 @@
 > * Languages: English (written and spoken), Russian (native speaker)  
 > * Interests: Cycling, cars and automotive industry  
 
-#### Technology Experience ####  
+#### Technology Experience  
 > * Git  
 > * Visual Fox Pro  
 > * Visual basic .NET  
@@ -22,7 +22,7 @@
 > * WinForms  
 > * JavaScript 
 
-#### Education ####  
+#### Education  
 > <b>Yanka Kupala State University of Grodno, 2004 - 2009</b>  
 > `Faculty: Physico-Technical`  
 > `Degree: Bachelor's`  
@@ -32,7 +32,7 @@
 > `Degree: High-school`  
 > `Specialization: Physics and Mathematics`  
 
-#### Work Experience ####  
+#### Work Experience  
 > <b>Grodno Khimvolokno JSC</b>  
 > Software engineer, 2011 - present  
 > * `Development of various programs for material, customs and financial accounting, analytics, generation of various reports, maintaining and improvement of internal enterprise portal.`  
