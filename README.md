@@ -1,1 +1,1 @@
-https://behik.github.io/rsschool-cv/cv
+[CV](https://behik.github.io/rsschool-cv/cv)
