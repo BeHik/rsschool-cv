@@ -3,7 +3,11 @@
   <head>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <--!<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <meta name="keywords" content="cv, yury astapchenia, astapchenia">
     <meta name="description" content="cv Yury Astapchenia">
     <link rel="stylesheet" href="styles/style.css">
@@ -11,7 +15,10 @@
   </head>
   <body>
     <main class="container">
-      <aside class="bar-left">
+      <aside id="mySidebar" class="bar-left">
+        <div class="mobile-button-x">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        </div>
         <div class="wrap-selfie">
           <img class="selfie" src="images/photo.jpg" alt="Selfie" />
         </div>
@@ -19,73 +26,36 @@
           <h1 class="format-first-name color-242424 upper-case">Yury <span class="format-surname color-666666">Astapchenia</span></h1>
           <h3 class="upper-case color-666666 indentional-to-box-height">Software Developer</h3>
           <div class="line-space"></div>
-          <section class="contact-me">
-            <header>
-              <h3 class="upper-case">contact me</h3>
-            </header>
+          <nav>
             <ul>
               <li>
-                <div>
-                  <p class="upper-case">phone number</p>
-                  <a href="tel:+375298872986">(+375) 298 872 986</a>
-                </div>
+                <a href="#about">about myself</a>
               </li>
               <li>
-                <div>
-                  <p class="upper-case">email address</p>
-                  <a href="mailto:behik3d@gmail.com">behik3d@gmail.com</a>
-                </div>
+                <a href="#perskills">personal skills</a>
               </li>
               <li>
-                <div>
-                  <p class="upper-case">address</p>
-                  <p>Hrodno, Belarus</p>
-                </div>
-                </li>
+                <a href="#education">education</a>
+              </li>
+              <li>
+                <a href="#profskills">professional skills</a>
+              </li>
+              <li>
+                <a href="#workexp">work experiece</a>
+              </li>
+              <li>
+                <a href="#lang">languages</a>
+              </li>
+              <li>
+                <a href="#contact">contacts</a>
+              </li>
             </ul>
-          </section>
-          <div class="line-space"></div>
-          <section class="personal-skills">
-            <header>
-              <h3 class="upper-case">personal skills</h3>
-            </header>
-            <div>
-              <ul>
-                <li class="conteiner-list-item">
-                  <span>Self-motivated and hardworking</span>
-                  <div class="conteiner-list-item">
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-empty"></div>
-                  </div>
-                </li>
-                <li class="conteiner-list-item">
-                  <span>Fast learner</span>
-                  <div class="conteiner-list-item">
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-empty"></div>
-                    <div class="circle-skill background-empty"></div>
-                  </div>
-                </li>
-                <li class="conteiner-list-item">
-                  <span>Stress-resistant</span>
-                  <div class="conteiner-list-item">
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-fill"></div>
-                    <div class="circle-skill background-empty"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
+          </nav>
         </div>
       </aside>
+      <div class="mobile-button">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
       <div class="bar-right">
         <header class="trapezoid conteiner-list-item">
           <div>
@@ -97,7 +67,55 @@
             </a>
           </div>
         </header>
-        <section>
+        <section id="about">
+          <header>
+            <h2 class="main-section upper-case">about myself</h2>
+          </header>
+          <article>
+            <p>My name is Yura. I am a software engineer at a chemical factory. I am responsible and hardworking. My hobbies include music, and traveling.</p>
+            <p>I love meeting people and I love making friends with people who are social. I am who I am, and I make no excuses for how I have turned out.</p>
+          </article>
+        </section>
+        <section id="perskills">
+          <header>
+            <h2 class="main-section upper-case">personal skills</h2>
+          </header>
+          <div>
+            <ul>
+              <li class="conteiner-list-item">
+                <span>Self-motivated and hardworking</span>
+                <div class="conteiner-list-item">
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-empty"></div>
+                </div>
+              </li>
+              <li class="conteiner-list-item">
+                <span>Fast learner</span>
+                <div class="conteiner-list-item">
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-empty"></div>
+                  <div class="circle-skill background-empty"></div>
+                </div>
+              </li>
+              <li class="conteiner-list-item">
+                <span>Stress-resistant</span>
+                <div class="conteiner-list-item">
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-fill"></div>
+                  <div class="circle-skill background-empty"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="education">
           <header>
             <h2 class="main-section upper-case">education</h2>
           </header>
@@ -119,7 +137,7 @@
             <p>Specialization: Physics and Mathematics</p>
           </article>
         </section>
-        <section>
+        <section id="profskills">
           <header>
             <h2 class="main-section upper-case">professional skills</h2>
           </header>
@@ -154,7 +172,7 @@
             </ul>
           </div>
         </section>
-        <section>
+        <section id="workexp">
           <header>
             <h2 class="main-section upper-case">work experiece</h2>
           </header>
@@ -180,14 +198,53 @@
             </div>
           </article>
         </section>
+        <section id="lang">
+          <header>
+            <h2 class="main-section upper-case">languages</h2>
+          </header>
+          <ul>
+            <li>
+              <p class="upper-case">Engish: A1+</p>
+            </li>
+            <li>
+              <p class="upper-case">Russian: Native</p>
+            </li>
+            <li>
+              <p class="upper-case">Polish: Fluent</p>
+            </li>
+          </ul>
+        </section>
+        <section id="contact">
+          <header>
+            <h2 class="main-section upper-case">contact me</h2>
+          </header>
+          <ul>
+            <li>
+              <div>
+                <p class="upper-case">phone number</p>
+                <a href="tel:+375298872986">(+375) 298 872 986</a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="upper-case">email address</p>
+                <a href="mailto:behik3d@gmail.com">behik3d@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <div>
+                <p class="upper-case">address</p>
+                <p>Hrodno, Belarus</p>
+              </div>
+              </li>
+          </ul>
+        </section>
         <footer class="style-footer">
           <div class="footer-copyright">
-            <!-- Copyright -->
             <div>
               <span>© 2021 Yury Astapchenia</span>
             </div>
-            <!-- Copyright -->
-            <div class="footer-copyright">
+            <div class="footer-copyright-links">
               <a href="https://github.com/BeHik" target="_blank">
                 <img src="./images/icons/github.svg" alt="image-link to GitHub account" height="40" width="40">
               </a>
@@ -199,5 +256,6 @@
         </footer>
       </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
